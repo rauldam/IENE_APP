@@ -259,6 +259,7 @@ if(isset($_COOKIE['anyo'])){
                             <option value="aplazado">Aplazado</option>
                             <option value="hecho">Hecho</option>
                             <option value="cancelado">Cancelado</option>
+                            <option value="generico">Genérico</option>
                             <option value="protocologenerico">Protocolo generico</option>
                             <option value="completoverificacion">Completo por verificación</option>
                             <option value="delete">Eliminar</option>
