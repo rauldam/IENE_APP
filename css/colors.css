@@ -1,0 +1,162 @@
+.pendiente{
+    color:#0275d8;
+}
+
+.hecho{
+    color:#5cb85c;
+}
+
+.incidencia{
+    color:#f0ad4e;
+}
+
+.cancelado{
+    color:#d9534f;
+}
+
+.preincidencia{
+    color:#f9deb8;
+}
+
+.preincidenciaresuelta{
+    color:#522e92;
+}
+
+.generico{
+    color:#292b2c;
+}
+
+.gestionado{
+    color:#296b2c;
+}
+
+.curso{
+    color:#696bfc;
+}
+
+.aplazado{
+    color:#FF0080;
+}
+
+.protocologenerico{
+    color:#474B4E;
+}
+.pendienteCuadrado{
+    background:#0275d8;
+    width:50px;
+    height:28px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+    
+}
+
+.hechoCuadrado{
+    background:#5cb85c;
+    width:50px;
+    height:28px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+    
+}
+
+.incidenciaCuadrado{
+    background:#f0ad4e;
+    width:50px;
+    height:28px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+    
+}
+
+.canceladoCuadrado{
+    background:#d9534f;
+    width:50px;
+    height:28px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+    
+}
+
+.preincidenciaCuadrado{
+    background:#f9deb8;
+    width:50px;
+    height:28px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+    
+}
+
+.preincidencia_resueltaCuadrado{
+    background:#522e92;
+    width:50px;
+    height:28px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+    
+}
+
+.genericoCuadrado{
+    background:#292b2c;
+    width:50px;
+    height:28px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+    
+}
+
+.gestionadoCuadrado{
+    background:#296b2c;
+    width:50px;
+    height:28px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+    
+}
+
+.cursoCuadrado{
+    background:#696bfc;
+    width:50px;
+    height:28px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+    
+}
+
+.aplazadoCuadrado{
+    background:#FF0080;
+    width:50px;
+    height:28px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+    
+}
+
+.protocoloCuadrado{
+    background:#474B4E;
+    width:50px;
+    height:28px;
+    color:white;
+    text-align: center;
+    font-weight:bold;
+    cursor:pointer;
+}
