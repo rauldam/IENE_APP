@@ -1,4 +1,7 @@
 <?php
+date_default_timezone_set("Europe/Madrid");
+setlocale(LC_TIME, 'es_ES','esp');
+
 //include('../includes/Seguridad.php');
 include('../includes/DbHandler.php');
 require_once '../includes/DbConnect.php';
@@ -1282,8 +1285,9 @@ function generarCertificadoDesperdicio($razon_no,$razon,$fecha_manual,$fecha_pro
 function generarManualDigitales($razon_no,$razon,$cif,$direccion,$telefono,$email,$actividad){
     global $year;
 	$templateProcessor = new PhpOffice\PhpWord\TemplateProcessor('templates/ManualDigitales.docx');
-
-	$templateProcessor->setValues(array('razon' => $razon, 'cif' => $cif, 'domicilio' => $direccion, 'tel' => $telefono, 'correo' => $email,'actividad' => $actividad));
+    $marca  = strtotime(date('Y-m-d'));
+    $fecha = strftime('%B de %Y', $marca);
+	$templateProcessor->setValues(array('razon' => $razon, 'fecha' => $fecha,'cif' => $cif, 'domicilio' => $direccion, 'tel' => $telefono, 'correo' => $email,'actividad' => $actividad));
 
 	if (!file_exists('../../users/'.$cif.'/'.$GLOBALS['red'].'/DIGITALES/'.$year.'/')) {
     	mkdir('../../users/'.$cif.'/'.$GLOBALS['red'].'/DIGITALES/'.$year.'/', 0777, true);
